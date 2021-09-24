@@ -56,5 +56,11 @@ public class PlayerController : MonoBehaviour
             BuildingIndoors.enabled = false;
 
         }
+        {
+            if (other.gameObject.CompareTag("PickUp"))
+            {
+                other.gameObject.SetActive(false);
+            }
+        }
     }
 }

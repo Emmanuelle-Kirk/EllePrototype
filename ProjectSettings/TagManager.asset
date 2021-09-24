@@ -6,6 +6,8 @@ TagManager:
   tags:
   - CamSwapTrigger
   - CamSwapTrigger2
+  - PickUp
+  - CollectSound
   layers:
   - Default
   - TransparentFX
